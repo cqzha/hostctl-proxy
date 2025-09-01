@@ -1,10 +1,10 @@
 # hostctl_proxy
 
-hostctl_proxy是基于[atx-agent](https://github.com/openatx/atx-agent)魔改
-对原来的Http代理模块做了改造，核心控制模块cmdctrl只做了小幅修改
-为适应笔者的项目，Http代理新增了动态路由，重写了request处理逻辑；新增了Config模块，实现控制对象可配置
+hostctl_proxy是基于[atx-agent](https://github.com/openatx/atx-agent)魔改<br>
+对原来的Http代理模块做了改造，核心控制模块cmdctrl只做了小幅修改<br>
+为适应笔者的项目，Http代理新增了动态路由，重写了request处理逻辑；新增了Config模块，实现控制对象可配置<br>
 
-**本项目旨在将测试环境的底层控制功能集成到统一平台，并通过标准化的 API 供各类测试脚本调用**
+**本项目旨在将测试环境的底层控制功能集成到统一平台，并通过标准化的 API 供各类测试脚本调用**<br>
 ※需要配合Http客户端及具体的控制对象
 
 ```
